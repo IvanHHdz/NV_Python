@@ -65,7 +65,7 @@ a.remove(0) # Elimina un elemento
 print(5 in a)  # Da True si está en el set, False si no
 ```
 
-Como dato curioso, los conjuntos también tienen sus propias operaciones, las _operaciones de conjuntos_, que son precisamente las operaciones de conjuntos matemáticos: unión ($A \cup B$), intersección ($A \cap B$), diferencia ($A - B$) y diferencia simétrica ($(A \cup B) \land \neg(A \cap B)$).
+Como dato curioso, los conjuntos también tienen sus propias operaciones, las _operaciones de conjuntos_, que son precisamente las operaciones de conjuntos matemáticos: unión ($A \cup B$), intersección ($A \cap B$), diferencia ($A - B$) y diferencia simétrica ( $(A \cup B) \land \neg(A \cap B)$ ).
 ```python
 a = {1, 2, 3}
 b = {3, 4, 5}
