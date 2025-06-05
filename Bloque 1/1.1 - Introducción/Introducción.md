@@ -36,19 +36,33 @@ Como un poco de historia: Python fue creado por Guido van Rossum en 1989 en los 
 
 Para utililzar Python, primero debemos descargarlo desde el [sitio oficial](https://www.python.org/). Al instalarlo, nos intalará IDLE (_Integrated Development and Learning Environment_) también. 
 
-IDLE es IDE (_Integrated Development Environment_), que es un programa que te ayuda a escribir, probar y corregir código de forma más fácil.
+**Instrucciones**:
 
-Existen muchos IDEs para Python, además de IDLE, los más populares son: 
-* [PyCharm](https://www.jetbrains.com/pycharm/download/)
-* [Jupyter Notebook](https://jupyter.org/install)
-* [Thonny](https://thonny.org/)
-* [Sublime Text](https://www.sublimetext.com/)
-* [Spyder](https://www.spyder-ide.org/)
-* [Atom](https://atom.io/)
-* [PyDev](https://www.pydev.org/)
-* [Wing IDE](https://wingware.com/downloads)
-* [Eric](https://eric-ide.python-projects.org/)
-* [Rodeo](https://github.com/yhat/rodeo/releases)
+1. Entrar al sitio web.
+2. Clic en el botón "Download Python".
+3. Ejecutar el instalador de Python.
+
+Importante: durante la instalación, asegúrate de marcar la casilla "Add Python to PATH" antes de hacer clic en "Install Now". Esto permite que puedas usar Python desde la terminal o línea de comandos.
+
+4. Una vez instalado, también se instalará una herramienta llamada IDLE.
+
+IDLE (_Integrated Development and Learning Environment_) es el IDE (_Integrated Development Environment_) predeterminado de Python, que es un programa que te ayuda a escribir, probar y corregir código de forma más fácil.
+
+Aunque IDLE funciona bien, existen muchos IDEs más avanzados que ofrecen mejores herramientas para programar de manera más cómoda y eficiente:
+| IDE/Editor           | Enlace de descarga                                                    | Características principales                        |
+| -------------------- | --------------------------------------------------------------------- | -------------------------------------------------- |
+| **VS Code**          | [code.visualstudio.com](https://code.visualstudio.com/download)       | Editor ligero, extensible, muy usado.              |
+| **PyCharm**          | [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/download/)  | IDE profesional, excelente para grandes proyectos. |
+| **Jupyter Notebook** | [jupyter.org](https://jupyter.org/install)                            | Ideal para ciencia de datos y visualización.       |
+| **Thonny**           | [thonny.org](https://thonny.org/)                                     | Muy simple, ideal para principiantes.              |
+| **Sublime Text**     | [sublimetext.com](https://www.sublimetext.com/)                       | Editor rápido y personalizable.                    |
+| **Spyder**           | [spyder-ide.org](https://www.spyder-ide.org/)                         | Enfocado en ciencia de datos y análisis.           |
+| **Atom**             | [atom.io](https://atom.io/)                                           | Editor flexible y extensible (ya no se actualiza). |
+| **PyDev**            | [pydev.org](https://www.pydev.org/)                                   | Plugin de Python para Eclipse.                     |
+| **Wing IDE**         | [wingware.com](https://wingware.com/downloads)                        | IDE profesional con herramientas de depuración.    |
+| **Eric**             | [eric-ide.python-projects.org](https://eric-ide.python-projects.org/) | Completo y con muchas funciones.                   |
+| **Rodeo**            | [github.com/yhat/rodeo](https://github.com/yhat/rodeo/releases)       | Similar a RStudio, enfocado en análisis.           |
+
 
 Una vez instalado Python, lo recomendable es descargar algún IDE (el que a uno más le guste) para comenzar a programar.
 
