@@ -21,9 +21,9 @@ A continuación, un desglose de los temas:
 3. Hello World!
 
 ## Conceptos básicos 
-1. Comentarios
-2. Tipos de datos primitivos (`int`, `float`, `str`, `bool`)
-3. Variables y constantes 
+1. Tipos de datos primitivos (`int`, `float`, `str`, `bool`)
+2. Variables y constantes 
+3. Comentarios
 4. Operadores (Aritméticos, de compraración y lógicos)
 5. Funciones básicas (`print()`, `input()`, etc.) 
 
@@ -34,8 +34,7 @@ A continuación, un desglose de los temas:
 
 ## Estructuras de datos
 1. Tipos de datos compuestos (`dict`, `list`, `tuple`, `set`)
-2. ~~Métodos comunes tipo de datos~~ 
-3. ~~Conversiones~~
+2. ~~Métodos y funciones comunes de cada tipo de dato~~ 
 
 ## Funciones 
 1. Definición de funciones (`def`)
@@ -51,7 +50,7 @@ A continuación, un desglose de los temas:
 
 ## ~~Manejo de archivos~~
 1. ~~Lectura y escritura de archivos `.txt`~~
-2. ~~`with`~~
+2. ~~Uso de `with`~~
 
 ## Programación Orientada a Objetos 
 1. Clases y objetos

@@ -34,7 +34,7 @@ Como un poco de historia: Python fue creado por Guido van Rossum en 1989 en los 
 
 # Descargar Python
 
-Para utililzar Python, primero debemos descargarlo desde el [sitio oficial](https://www.python.org/). Al instalarlo, nos intalará IDLE (_Integrated Development and Learning Environment_) también. 
+Para utililzar Python, primero debemos descargarlo desde el [sitio oficial](https://www.python.org/downloads/).
 
 **Instrucciones**:
 
@@ -44,9 +44,9 @@ Para utililzar Python, primero debemos descargarlo desde el [sitio oficial](http
 
 Importante: durante la instalación, asegúrate de marcar la casilla "Add Python to PATH" antes de hacer clic en "Install Now". Esto permite que puedas usar Python desde la terminal o línea de comandos.
 
-4. Una vez instalado, también se instalará una herramienta llamada IDLE.
+4. Una vez instalado, también se instalará una herramienta llamada IDLE (_Integrated Development and Learning Environment_).
 
-IDLE (_Integrated Development and Learning Environment_) es el IDE (_Integrated Development Environment_) predeterminado de Python, que es un programa que te ayuda a escribir, probar y corregir código de forma más fácil.
+IDLE es el IDE (_Integrated Development Environment_) predeterminado de Python, que es un programa que te ayuda a escribir, probar y corregir código de forma más fácil.
 
 Aunque IDLE funciona bien, existen muchos IDEs más avanzados que ofrecen mejores herramientas para programar de manera más cómoda y eficiente:
 | IDE/Editor           | Enlace de descarga                                                    | Características principales                        |
