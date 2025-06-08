@@ -73,7 +73,7 @@ Como mencionamos antes, cada tipo de dato tiene distintas operaciones en las que
 
 Los datos numéricos `int` y `float` tienen ambos las operaciones de suma `+`, resta `-`, multiplicación `*`, división `/`, módulo `%` y división entera `//` (aclarando que módulo es el residuo de una división y la división entera es el cociente sin decimales).
 
-A continuación un ejemplo, donde usaremos `print()` para ver el resultado de la operación (los `#` son para comentarios, partes de código que se ignoran al ejecutar el programa):
+A continuación un ejemplo, donde usaremos `print()` para ver el resultado de la operación:
 ```python
 a = 10
 b = 5
@@ -100,6 +100,12 @@ print(c // d)   # Mostrará 5.0
 Notemos que al multiplicar `c * d` el resultado tiene `.0`. Esto para indicar que es un `float`, pues al operar un `float` con un `int` el resultado siempre es `float`. Esto ocurre tanto en la división como en la multiplicación.
 
 Podemos usar los paréntesis `()` para agruparlos.
+
+También, Python cuenta con el operador de potencia, que sirve para calcular un número elevado a cualquier potencia:
+```python
+print(2 ** 2)       # 4
+print(9 ** 0.5)     # 3
+```
 
 Con los datos `str`, podemos usar la concatenación `+` y la repetición `*`.
 
