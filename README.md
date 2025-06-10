@@ -41,7 +41,6 @@ A continuación, un desglose de los temas:
 2. Funciones, parámetros y retorno
 3. Alcance de variables
 4. ~~Recursividad~~
-5. ~~Funciones anidadas~~
 
 ## Conceptos medios
 1.  Importaciones, módulos y paquetes
@@ -58,10 +57,12 @@ A continuación, un desglose de los temas:
 3. Herencia 
 
 ## Programación Funcional 
-1. Funciones como objetos
-2. Inmutabilidad
-3. ~~Decoradores~~
-4. ~~`map()`, `filtrer()`, `reduce()`, `lambda`~~
+1. Funciones anidadas
+2. Funciones como objetos
+3. funciones `lambda`
+4. ~~Inmutabilidad~~
+5. ~~Decoradores~~
+6. ~~`map()`, `filtrer()`, `reduce()`~~
 
 ## Gestión de paquetes y entornos
 1. ~~Entornos virtuales~~
