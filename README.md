@@ -43,9 +43,9 @@ A continuación, un desglose de los temas:
 4. ~~Recursividad~~
 
 ## Conceptos medios
-1.  Importaciones, módulos y paquetes
-2.  ~~Manejo de errores (`try-catch`)~~
-3.  Comprensión de listas
+1.  Comprensión de listas
+2.  Importaciones, módulos y paquetes
+3.  ~~Manejo de errores (`try-catch`)~~
 
 ## ~~Manejo de archivos~~
 1. ~~Lectura y escritura de archivos `.txt`~~
