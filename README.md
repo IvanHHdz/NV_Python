@@ -45,7 +45,7 @@ A continuación, un desglose de los temas:
 ## Conceptos medios
 1.  Comprensión de listas
 2.  Importaciones, módulos y paquetes
-3.  ~~Manejo de errores (`try-catch`)~~
+3.  ~~Manejo de errores (`try-except`)~~
 
 ## ~~Manejo de archivos~~
 1. ~~Lectura y escritura de archivos `.txt`~~
