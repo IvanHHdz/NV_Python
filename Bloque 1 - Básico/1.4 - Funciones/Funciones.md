@@ -67,6 +67,26 @@ Ahora bien, uno puede preguntarse ¿Y para qué crear una función que hace eso 
 
 Por ejemplo, supogamos que después necesitamos volver a calcular las soluciones de una ecuación cuadrática, al usar funciones solamente tenemos que escribir `cuadratica()` y pasarle los parámetros que necesita, sin necesidad de volver a programar esa parte.
 
+También podemos hacer que un parámetro sea opcional al declararle un valor en la declaración de la función. Por ejemplo:
+```python
+def saludar(nombre = 'Fulano de Tal'):
+    print('Hola ' + nombre + '!')
+```
+De esta forma, si no se pasa un nombre de parámetro, se usará el nombre que definimos aquí. Entonces, podemos hacer lo siguiente:
+```python
+saludar()
+```
+y  el resultado sería:
+```txt
+Hola Fulano de Tal!
+```
+
+Y en caso que existan muchos parámetros, entre ellos muchos que no son obligatorios, podemos especificar cuales de ellos vamos a pasar al llamar la función. Por ejemplo:
+```python
+saludar(nombre = "Pablo")
+```
+Así, si la función tuviera más parámetros, especificaríamos que estamos pasando el que irá en la variable `nombre`.
+
 # Alcance de variables
 
 Como mencionábamos antes, no tiene importancia si el nombre de las variables que pasamos como parámetros son los mismos que utilizamos en la declaración de la función. Pero, ¿Por qué? Porque lo único que se transmite entre la llamada a la función y la función es el valor, no la variable completa. 
