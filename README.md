@@ -46,18 +46,22 @@ A continuación, un desglose de los temas:
 1. ~~Lectura y escritura de archivos de texto~~
 2. ~~Lectura y escritura de archivos binarios~~
 
+## Programación Funcional 
+1. Funciones como objetos
+2. funciones `lambda`
+3. Funciones anidadas y clausuras
+4. ~~Funciones de orden superior y `map()`, `filtrer()`, `reduce()`~~
+5. ~~Decoradores~~
+6. ~~Inmutabilidad~~
+7. ~~Composición~~
+
 ## Programación Orientada a Objetos 
 1. Clases y objetos
 2. Atributos y métodos
-3. Herencia 
-
-## Programación Funcional 
-1. Funciones anidadas
-2. Funciones como objetos
-3. funciones `lambda`
-4. ~~Inmutabilidad~~
-5. ~~Decoradores~~
-6. ~~`map()`, `filtrer()`, `reduce()`~~
+3. Métodos especiales (Dunder methods)
+4. ~~Herencia~~ 
+5. ~~Polimorfísmo~~
+6. ~~Clases y Métodos de Clase y Estáticos~~
 
 ## Gestión de paquetes y entornos
 1. ~~Entornos virtuales~~
