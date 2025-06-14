@@ -9,11 +9,6 @@ A continuación, un desglose de los temas:
 
 # Bloque 1: Básico
 
-## ~~Pre-Introducción~~
-1. ~~Programación~~
-2. ~~Lenguajes de programación~~
-3. ~~Compiladores e intérpretes~~
-
 ## Introducción
 
 1. Python
@@ -48,8 +43,8 @@ A continuación, un desglose de los temas:
 3.  ~~Manejo de errores (`try-except`)~~
 
 ## ~~Manejo de archivos~~
-1. ~~Lectura y escritura de archivos `.txt`~~
-2. ~~Uso de `with`~~
+1. ~~Lectura y escritura de archivos de texto~~
+2. ~~Lectura y escritura de archivos binarios~~
 
 ## Programación Orientada a Objetos 
 1. Clases y objetos
