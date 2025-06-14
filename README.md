@@ -7,7 +7,7 @@ Busca ser una guía básica del lenguaje, enseñando sus báses y demás.
 
 A continuación, un desglose de los temas:
 
-# Bloque 1
+# Bloque 1: Básico
 
 ## ~~Pre-Introducción~~
 1. ~~Programación~~
