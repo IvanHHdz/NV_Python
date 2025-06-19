@@ -50,9 +50,9 @@ A continuación, un desglose de los temas:
 1. Funciones como objetos
 2. funciones `lambda`
 3. Funciones anidadas y clausuras
-4. ~~Funciones de orden superior y `map()`, `filtrer()`, `reduce()`~~
+4. ~~Funciones de orden superior y `map()`, `filter()`~~
 5. ~~Decoradores~~
-6. ~~Inmutabilidad~~
+6. ~~Inmutabilidad y pureza~~
 7. ~~Composición~~
 
 ## Programación Orientada a Objetos 
