@@ -240,3 +240,6 @@ if __name__ == "__main__":
     main()
 ```
 
+# Decoradores
+# Inmutabilidad y pureza
+# Composición
