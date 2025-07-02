@@ -111,3 +111,54 @@ class Lista:
 ```
 
 # Métodos especiales (_Dunder methods_)
+
+Existe un conjunto estándar de métodos "especiales", que son conocidos como _dunder methods_ o _double underscore_ que, como su nombre indica, comienzan y terminan con un doble guión bajo (\_\_). Estas son usadas para definir algunos comportamientos especiales del objeto en ciertas circunstancias.
+
+Algunos de los más comunes son:
+- `__inti__` es el **contructor**, se llama al crear el objeto.
+- `__str__` devuelve una cadena al crear usar `str()` o `print()`.
+- `__len__` devuelve la longitud.
+- `__getitem__` permite acceder con `[]` como listas o diccionarios.
+- `__setitem__` asignar valores con `[]`.
+- `__add__` define el uso de `+`.
+- `__eq__` comparación con `==`.
+
+Y, a continuación, un ejemplo que contiene todos estos métodos:
+
+```python
+class Caja:
+    # Constructor, se ejecuta al crear el objeto y necesita del color
+    def __init__(self, color):
+        self.color = color
+        self.contenido = []
+    
+    # Esta es la forma en que se representa el objeto como una str
+    def __str__(self):
+        return f'Esta es una caja {self.color}\nContenido: {self.contenido}'
+
+    # Con esto podemos ver su tamaño
+    def __len__(self):
+        return len(self.contenido)
+
+    # Obtenemos un item del objeto
+    def __getitem__(self, i):
+        return self.contenido[i]
+
+    # Asignamos items al objeto
+    def __setitem__(self, i, value):
+        self.contenido[i] = value
+    
+    # Definimos la suma del objeto
+    def __add__(self, other):
+        nueva_caja = Caja(self.color)
+        nueva_caja.contenido = self.contenido + other.contenido
+        return nueva_caja
+    
+    # Definimos la igualdad de objetos
+    def __eq__(self, other):
+        if self.color != other.color:
+            return False
+        elif self.contenido != other.contenido:
+            return False
+        else:
+            return True
