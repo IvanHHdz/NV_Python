@@ -95,7 +95,7 @@ Yo le incito a investigar sobre cada sucesión, pero para ahorrarle trabajo por 
 - Sucesión de cuadrados: Los cuadrados de los naturales, o sea $P(k) = k^2$.
 - Sucesión de triángulos: La suma desde $0$ hasta $k$, es decir $P(k) = \frac{k(k+1)}{2}$.
 - Sucesión de Padovan: la suma del segundo y tercer anteriores, o sea $P(k) = P(k - 2) + P(k - 3)$. Como Fibonacci más o menos.
-- Sucesión de Catalan: $P(k) = \frac{1}{k+1}\binom{2k}{k} = \frac{(2k)!}{(n+1)! \cdot n!}$
+- Sucesión de Catalan: $P(k) = \frac{1}{k+1}\binom{2k}{k} = \frac{(2k)!}{(k+1)! \cdot k!}$
 
 ### Ejercicio N.5
 
