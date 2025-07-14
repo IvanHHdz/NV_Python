@@ -102,5 +102,6 @@ A continuación, un desglose de los temas:
 3. `subplot`
 
 ## Extra
-1. `seaborn`
-2. `polars`
+1. Markdown
+2. `seaborn`
+3. `polars`
