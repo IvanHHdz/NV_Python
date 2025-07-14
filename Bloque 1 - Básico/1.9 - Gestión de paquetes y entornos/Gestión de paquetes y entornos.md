@@ -76,4 +76,4 @@ conda install numpy                             # instala un paquete, numpy en e
 
 Anaconda, por otro lado, es una distribución de Python que incluye todo lo que instalamos al principio con Python, más cosas extra como `conda`, librerías científicas, etc.
 
-Podemos descargar anaconda desde el [enlace oficial](https://www.anaconda.com/download/success).
+Podemos descargar anaconda desde el [sitio oficial](https://www.anaconda.com/download/success).
