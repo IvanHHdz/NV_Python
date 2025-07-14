@@ -7,7 +7,7 @@ Busca ser una guía básica del lenguaje, enseñando sus báses y demás.
 
 A continuación, un desglose de los temas:
 
-# Bloque 1: Básico
+# [Bloque 1: Básico](./Bloque%201%20-%20Básico/)
 
 ## [Introducción](./Bloque%201%20-%20Básico/1.0%20-%20Introducción/Introducción.md)
 
