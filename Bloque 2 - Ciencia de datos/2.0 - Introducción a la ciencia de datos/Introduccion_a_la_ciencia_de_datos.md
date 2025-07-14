@@ -39,7 +39,7 @@ Al iniciarlo, nos abrirá nuestro navegador, a la interfaz de Jupyter.
 
 Si instalamos Anaconda, ya lo tendremos instalado pues lo instala por defecto. Si usamos VS Code podemos usar los Jupyter Notebooks al abrirlos directamente instalando la extensión oficial.
 
-Estos resultan muy útiles por incluir la posibilidad de escribir código (en Python) y también escribir texto (con [MarkDown](../2.4%20-%20Extra/extra.md)).
+Estos resultan muy útiles por incluir la posibilidad de escribir código (en Python) y también escribir texto (con [Markdown](../2.4%20-%20Extra/extra.md)).
 
 # Flujo de trabajo
 Normalmente, seguiremos un esquema simple para analizar datos:

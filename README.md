@@ -70,23 +70,23 @@ A continuación, un desglose de los temas:
 2. Pip 
 3. Conda y Anaconda  
 
-# Bloque 2: Ciencia de datos
+# [Bloque 2: Ciencia de datos](./Bloque%202%20-%20Ciencia%20de%20datos/)
 
-## Introducción a la ciencia de datos (data science)
+## [Introducción a la ciencia de datos (data science)](./Bloque%202%20-%20Ciencia%20de%20datos/2.0%20-%20Introducción%20a%20la%20ciencia%20de%20datos/Introduccion_a_la_ciencia_de_datos.md)
 1. Ciencia de datos
 2. Librerías
 3. Jupyter Notebooks
 4. Flujo de trabajo
 5. Formatos comunes
 
-## `numpy`
+## [NumPy](./Bloque%202%20-%20Ciencia%20de%20datos/2.1%20-%20NumPy/numpy.md)
 1. Arreglos (`array`)
 2. Manejo e indexado
 3. Operaciones con `array`
 4. Algebra lineal desde `numpy`
 5. Funciones útiles (`mean`, `std`, etc.)
 
-## `pandas`
+## [Pandas](./Bloque%202%20-%20Ciencia%20de%20datos/2.2%20-%20Pandas/pandas.md)
 1. `DataFrame`
 2. Importar y exportar
 3. Exploración y resumen
@@ -96,12 +96,12 @@ A continuación, un desglose de los temas:
 7. Agrupamiento
 8. Fecha y tiempo
 
-## `matplotlib`
+## [MatPlotLib](./Bloque%202%20-%20Ciencia%20de%20datos/2.3%20-%20MatPlotLib/matplotlib.md)
 1. Gráficos básicos (`plot`, `bar`, `hist`, etc.)
 2. Personalización
 3. `subplot`
 
-## Extra
+## [Extra](./Bloque%202%20-%20Ciencia%20de%20datos/2.4%20-%20Extra/extra.md)
 1. Markdown
 2. `seaborn`
 3. `polars`
