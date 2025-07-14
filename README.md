@@ -64,6 +64,6 @@ A continuación, un desglose de los temas:
 6. ~~Clases y Métodos de Clase y Estáticos~~
 
 ## [Gestión de paquetes y entornos](./Bloque%201%20-%20Básico/1.9%20-%20Gestión%20de%20paquetes%20y%20entornos/Gestión%20de%20paquetes%20y%20entornos.md)
-1. ~~Entornos virtuales~~
+1. Entornos virtuales
 2. Pip 
 3. Conda y Anaconda  
