@@ -3,6 +3,8 @@
 
 Este repositorio fue creado con el objetivo de servir de apoyo a cualquier persona que esté interesada en aprender Python.
 
+Se recomienda ir al bloque 1 primero. De ahí, cualquier bloque está bien.
+
 Busca ser una guía básica del lenguaje, enseñando sus báses y demás.
 
 A continuación, un desglose de los temas:
@@ -67,3 +69,38 @@ A continuación, un desglose de los temas:
 1. Entornos virtuales
 2. Pip 
 3. Conda y Anaconda  
+
+# Bloque 2: Ciencia de datos
+
+## Introducción a la ciencia de datos (data science)
+1. Ciencia de datos
+2. Librerías
+3. Jupyter Notebooks
+4. Flujo de trabajo
+5. Formatos comunes
+
+## `numpy`
+1. Arreglos (`array`)
+2. Manejo e indexado
+3. Operaciones con `array`
+4. Algebra lineal desde `numpy`
+5. Funciones útiles (`mean`, `std`, etc.)
+
+## `pandas`
+1. `DataFrame`
+2. Importar y exportar
+3. Exploración y resumen
+4. Selección de datos
+5. Limpieza de datos
+6. Transformación de datos
+7. Agrupamiento
+8. Fecha y tiempo
+
+## `matplotlib`
+1. Gráficos básicos (`plot`, `bar`, `hist`, etc.)
+2. Personalización
+3. `subplot`
+
+## Extra
+1. `seaborn`
+2. `polars`
