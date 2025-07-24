@@ -81,10 +81,10 @@ A continuación, un desglose de los temas:
 
 ## [NumPy](./Bloque%202%20-%20Ciencia%20de%20datos/2.1%20-%20NumPy/numpy.md)
 1. Arreglos (`array`)
-2. Manejo e indexado
-3. Operaciones con `array`
-4. Algebra lineal desde `numpy`
-5. Funciones útiles (`mean`, `std`, etc.)
+2. Funciones básicas
+3. Atributos de los arreglos
+4. Operaciones básicas con `array`
+5. Funciones y métodos útiles 
 
 ## [Pandas](./Bloque%202%20-%20Ciencia%20de%20datos/2.2%20-%20Pandas/pandas.md)
 1. `DataFrame`
