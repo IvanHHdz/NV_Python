@@ -16,25 +16,20 @@ import numpy as np
 Es una estructura similar a la lista, pero más eficiente. Funciona de manera similar a los arreglos de otros lenguajes como C++. Y se les conoce como tipo `ndarray`.
 
 Podemos entender los arreglos de manera similar a las matrices de matemáticas: varios números (o datos) agrupados. De esta forma, si tenemos:
-$$
-    \begin{bmatrix}
-        1 & 2 & 3
-    \end{bmatrix}
-$$
-
+```
+[1  2  3]
+```
 podemos representarlo en Python, usando NumPy, como:
 ```python
 a = np.array([1, 2, 3])
 ```
 
 Y lo mismo ocurre con matrices como:
-$$
-    \begin{bmatrix}
-        1 & 0 & 0 \\
-        0 & 1 & 0 \\
-        0 & 0 & 1 \\
-    \end{bmatrix}
-$$
+```
+[1  0  0]
+[0  1  0]
+[0  0  1]
+```
 
 que podemos representar como:
 ```python
