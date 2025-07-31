@@ -185,6 +185,37 @@ print(t)    # [ 0.   4.6  9.2 13.8 18.4 23. ]
 
 Lo que obtenemos es un arreglo que va desde el inicio al fin teniendo cierta cantidad de elementos, separados de manera uniforme.
 
+Una última función que puede resultar bastante útil: `.sort()`, la cual también tiene `np.sort()` (a esta última se le manda el arreglo como parámetro). Esta función, como indica su nombre, nor sirve para ordenar arreglos. Es bastante rápida, pues está programada directamente en C++. 
+```python
+arr = np.array([2, 5, 0, 9, 2, 4])
+arr.sort()
+print(arr)  # [0 2 2 4 5 9]
+```
+
+Tanbién podemos agregar ciertos parámetros, especialmente cuando tenemos varias dimensiones:
+```python
+arr = np.array([
+    [2, 5, 0, 9, 2, 4],
+    [3, 0, 0, 7, 2, 5]
+])
+
+print(sort(arr))
+#   [[0 2 2 4 5 9]
+#    [0 0 2 3 5 7]]
+
+print(sort(arr, axis=0))
+#   [[2 0 0 7 2 4]
+#    [3 5 0 9 2 5]]
+```
+
+Al igual que podemos elegir el algoritmo que usaremos:
+
+```python
+arr = np.array([2, 5, 0, 9, 2, 4])
+arr.sort(kind='quicksort')  # {‘quicksort’, ‘mergesort’, ‘heapsort’, ‘stable’}
+print(arr)  # [0 2 2 4 5 9]
+```
+
 # Atributos de los arreglos
 
 Para esta sección, consideraremos los siguientes arreglos:
