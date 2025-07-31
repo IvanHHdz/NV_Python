@@ -53,7 +53,7 @@ A continuación, un desglose de los temas:
 2. funciones `lambda`
 3. Funciones anidadas y clausuras
 4. Funciones de orden superior y `map()`, `filter()`
-5. ~~Decoradores~~
+5. Decoradores
 6. ~~Inmutabilidad y pureza~~
 7. ~~Composición~~
 
