@@ -89,7 +89,7 @@ A continuación, un desglose de los temas:
 ## [Pandas](./Bloque%202%20-%20Ciencia%20de%20datos/2.2%20-%20Pandas/pandas.md)
 1. `DataFrame`
 2. Importar y exportar
-3. Exploración y resumen
+3. Exploración y manipulación
 4. Selección de datos
 5. Limpieza de datos
 6. Transformación de datos
