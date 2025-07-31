@@ -241,5 +241,118 @@ if __name__ == "__main__":
 ```
 
 # Decoradores
+Un decorador es una función que toma otra función como argumento, le añade funcionalidad y devuelve una nueva función. Se usa para modificar el comportamiento de funciones o métodos de manera clara, concisa y reutilizable, sin cambiar su código original.
+
+La forma más común de utilizarlos es por medio de _azúcar sintáctico_. Este método consiste en crear una función que reciba otra como parámetro, crear una función que "decoraremos" y colocarle @ arriba junto con el nombre de la función que la decorará.
+
+Por ejemplo:
+```python
+# definimos el decorador
+def saludos(f):
+    print("Hola!")
+    f()
+    print("Adios!")
+
+# creamos la función y la decoramos
+@saludos
+def anuncio():
+    print("Anuncio importante")
+
+def main():
+    anuncio()
+
+if __name__ == '__main__':
+    main()
+```
+
+Ahora bien, ¿Cómo lo hacemos si la función que deseamos decorar necesita parámetros? Esto es un poco más complejo al principio, vamos a analizarlo:
+```python
+def saludos(f):
+    def g(*args, **kwargs):
+        print("Hola!")
+        f(*args, **kwargs)
+        print("Adios!")
+    return g
+
+@saludos
+def anuncio(texto):
+    print("Anuncio importante")
+    print(texto)
+
+def main():
+    anuncio("De lunes a viernes")
+
+if __name__ == '__main__':
+    main()
+```
+
+De la misma forma, también podemos agregar decoradores sobre decoradores, anidándolos:
+```python
+def bip(f):
+    def g(*args, **kwargs):
+        print("bip!!!")
+        f(*args, **kwargs)
+    return g
+
+def saludos(f):
+    def g(*args, **kwargs):
+        print("Hola!")
+        f(*args, **kwargs)
+        print("Adios!")
+    return g
+
+@bip
+@saludos
+def anuncio(texto):
+    print("Anuncio importante")
+    print(texto)
+
+def main():
+    anuncio("De lunes a viernes")
+
+if __name__ == '__main__':
+    main()
+```
+
+Además, podemos crear decoradores que reciben parámetros. Para esto, necesitamos una función que retorne un decorador:
+```python
+def bips(n):
+    def bip(f):
+        def g(*args, **kwargs):
+            for i in range(n):
+                print("bip!!!")
+            f(*args, **kwargs)
+        return g
+    return bip
+
+def saludos(f):
+    def g(*args, **kwargs):
+        print("Hola!")
+        f(*args, **kwargs)
+        print("Adios!")
+    return g
+
+@bips(3)
+@saludos
+def anuncio(texto):
+    print("Anuncio importante")
+    print(texto)
+
+def main():
+    anuncio("De lunes a viernes")
+
+if __name__ == '__main__':
+    main()
+```
+
+Python también cuenta con un par de decoradores que resultan útiles. De estos, podemos destacar:
+| Decorador       | Uso                                      | Se aplica a...         |
+| --------------- | ---------------------------------------- | ---------------------- |
+| `@staticmethod` | Método sin `self`, no accede a instancia | Métodos de clase       |
+| `@classmethod`  | Método con `cls`, accede a la clase      | Métodos de clase       |
+| `@property`     | Define un atributo computado             | Atributos de instancia |
+| `@wraps`        | Preserva metadatos al decorar funciones  | Decoradores            |
+
+
 # Inmutabilidad y pureza
 # Composición
