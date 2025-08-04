@@ -93,8 +93,6 @@ A continuación, un desglose de los temas:
 4. Selección de datos
 5. Limpieza de datos
 6. Transformación de datos
-7. Agrupamiento
-8. Fecha y tiempo
 
 ## [MatPlotLib](./Bloque%202%20-%20Ciencia%20de%20datos/2.3%20-%20MatPlotLib/matplotlib.md)
 1. Gráficos básicos (`plot`, `bar`, `hist`, etc.)
