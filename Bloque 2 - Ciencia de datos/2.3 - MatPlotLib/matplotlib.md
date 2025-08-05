@@ -231,6 +231,7 @@ plt.title("Simple Plot") # añadimos título
 plt.legend()# añadimos la leyenda
 ```
 Ambos generarán la misma gráfica:
+
 ![G05.png](./img/G05.png)
 
 # Multiples gráficas
