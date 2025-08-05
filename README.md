@@ -48,7 +48,7 @@ A continuación, un desglose de los temas:
 1. Lectura y escritura de archivos de texto
 2. Lectura y escritura de archivos binarios
 
-## [Programación Funcional](./Bloque%201%20-%20Básico/1.7%20-%20Programación%20Funcional/Programación%20Funcional.md)
+## [Programación Funcional](./Bloque%201%20-%20Básico/1.7%20-%20Programación%20Funcional/Programación_Funcional.md)
 1. Funciones como objetos
 2. funciones `lambda`
 3. Funciones anidadas y clausuras
@@ -57,7 +57,7 @@ A continuación, un desglose de los temas:
 6. ~~Inmutabilidad y pureza~~
 7. ~~Composición~~
 
-## [Programación Orientada a Objetos](./Bloque%201%20-%20Básico/1.8%20-%20Programación%20Orientada%20a%20Objetos/Programación%20Orientada%20a%20Objetos.md)
+## [Programación Orientada a Objetos](./Bloque%201%20-%20Básico/1.8%20-%20Programación%20Orientada%20a%20Objetos/Programación_Orientada_a_Objetos.md)
 1. Clases y objetos
 2. Atributos y métodos
 3. Métodos especiales (Dunder methods)
