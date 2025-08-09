@@ -95,11 +95,13 @@ A continuación, un desglose de los temas:
 6. Transformación de datos
 
 ## [MatPlotLib](./Bloque%202%20-%20Ciencia%20de%20datos/2.3%20-%20MatPlotLib/matplotlib.md)
-1. Gráficos básicos (`plot`, `bar`, `hist`, etc.)
-2. Personalización
-3. `subplot`
+1. Gráficos
+2. Partes de las gráficas
+3. Graficar
+4. Interfaces
+5. Multiples gráficas
 
 ## [Extra](./Bloque%202%20-%20Ciencia%20de%20datos/2.4%20-%20Extra/extra.md)
 1. Markdown
-2. `seaborn`
-3. `polars`
+2. ~~`seaborn`~~
+3. ~~`polars`~~
